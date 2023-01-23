@@ -65,5 +65,4 @@ class RobotArm():
             _z = self.pos[2] + dz
             self.goTo(_x, _y, _z, False)
             counter += 1
-        print(counter)
         self.goTo(x, y, z)
